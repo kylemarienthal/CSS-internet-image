@@ -74,6 +74,7 @@ height: 120px;
 .home{
   width: 655px;
   height: 117px;
+  display: inline-block;
 }
 #home_pic{
   width: 43px;
@@ -89,4 +90,16 @@ vertical-align: top;
 font-size: 33px;
 /* margin-top: 15px; */
 line-height: 67px;
+}
+.phone_number{
+  width: 822px;
+  height: 117px;
+  display: inline-block;
+  /*background: red;*/
+  vertical-align: top;
+}
+#schedule{
+  width: 44px;
+  height: 44px;
+  
 }
