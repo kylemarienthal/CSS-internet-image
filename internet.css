@@ -67,5 +67,26 @@ h2{
   display: inline-block;
   vertical-align: top;
 }
-
-/*****************add the top line for bulk info*/
+.contact_info{
+  width: auto;
+height: 120px;
+  }
+.home{
+  width: 655px;
+  height: 117px;
+}
+#home_pic{
+  width: 43px;
+  margin-top: 9px;
+  margin-left: 66px;
+  height: 42px;
+}
+div.home h2{
+  height: 65px;
+width: 66px;
+display: inline-block;
+vertical-align: top;
+font-size: 33px;
+/* margin-top: 15px; */
+line-height: 67px;
+}
