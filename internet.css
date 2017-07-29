@@ -150,3 +150,8 @@ div.home h2 {
   height: 29px;
   font-size: 24.8px;
 }
+#text_body{
+  width: 50px;
+  height: 29px;
+  background: black;
+}
