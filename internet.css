@@ -174,7 +174,7 @@ font-weight: bold;
   font-size: 32px;
   /*background: black;*/
 }
-.clients_servers ul li{
+.clients_servers li{
   margin-left: 75px;
   /*height: 122px;*/
   /*background: black;*/
@@ -192,4 +192,25 @@ ol{
 ol li{
   margin-left: 75px;
   font-size: 33px;
+}
+.the_big_3{
+  width: 1375px;
+  height: 260px;
+  margin-top: 28px;
+  margin-left: 78px;
+}
+.the_big_3 img{
+  width: 224px;
+  margin-top: 31px;
+  margin-left: 27px;
+}
+.the_big_3 h1{
+  margin-left: 27px;
+  margin-top: 28px;
+  /* width: 50px; */
+  font-size: 40px;
+}
+.the_big_3 p{
+  /*width: 75px;*/
+  display: inline-block;
 }
