@@ -74,7 +74,7 @@ h2 {
 .bulk_info {
   /*background-image: url(home.png);*/
   height: 1316px;
-  width: 1489px;
+  width: 1482px;
   display: inline-block;
   vertical-align: top;
 }
@@ -85,7 +85,7 @@ h2 {
 }
 
 .home {
-  width: 655px;
+  width: 647px;
   height: 117px;
   display: inline-block;
 }
@@ -150,8 +150,46 @@ div.home h2 {
   height: 29px;
   font-size: 24.8px;
 }
-#text_body{
-  width: 50px;
-  height: 29px;
-  background: black;
+.text_body{
+  width: auto;
+  height: 1190px;
+  /*background: black;*/
+}
+.clients_servers{
+  width: auto;
+  height: 929px;
+}
+.clients_servers h1{
+  width: auto;
+height: 50px;
+/* background: black; */
+margin-left: 65px;
+margin-top: 4px;
+font-size: 42px;
+font-weight: bold;
+}
+.clients_servers ul{
+  /*height: 869px;*/
+  margin-left: 27px;
+  font-size: 32px;
+  /*background: black;*/
+}
+.clients_servers ul li{
+  margin-left: 75px;
+  /*height: 122px;*/
+  /*background: black;*/
+}
+.clients_servers img{
+  width: 546px;
+  margin-left: 465px;
+  margin-top: 13px;
+}
+ol{
+  margin-left: 27px;
+  font-size: 43px;
+  margin-top: 17px;
+}
+ol li{
+  margin-left: 15px;
+  font-size: 33px;
 }
