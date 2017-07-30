@@ -1,6 +1,6 @@
 * {
   margin: 0px;
-  border: 1px solid red;
+  /*border: 1px solid red;*/
 }
 
 body {
@@ -56,6 +56,7 @@ body {
   height: 1499px;
   width: 1917px;
   margin-left: 208px;
+  background: linear-gradient(#e3e3e3,#ffffff,#ffffff);
 }
 
 .internet {
@@ -63,6 +64,7 @@ body {
   height: 425px;
   width: 418px;
   font-size: 34px;
+  font-weight: bolder;
 }
 .internet span{
   color: red;
@@ -80,7 +82,27 @@ body {
   height: 207px;
   width: 417px;
   display: inline-block;
-  margin-top: 218px;
+  margin-top: 34px;
+  border-bottom: solid thin black;
+}
+.internet_links button{
+  font-size: 37px;
+  padding: 14px;
+  margin-left: 50px;
+  width: 325px;
+}
+#watch_vid{
+  background: linear-gradient(#6297c3, #23669e);
+  color: #fefefe;
+  border-radius: 10px;
+  box-shadow: 14px 20px 59px -13px black;
+}
+#resources{
+  background: linear-gradient(#eaad56, #ef7200);
+  color: #fefefe;
+  border-radius: 10px;
+  margin-top: 10px;
+  box-shadow: 14px 20px 59px -13px black;
 }
 
 .ad_content {
@@ -89,8 +111,30 @@ body {
   width: 397px;
   margin-top: 46px;
   margin-left: 7px;
-  opacity: .5;
+  /*opacity: .5;*/
 }
+.ad_content p{
+  color: white;
+  font-size: 47px;
+  text-align: center;
+}
+#ninja{
+  width: 171px;
+  margin-left: 113px;
+}
+.ad_content button{
+  background: linear-gradient(#77d0df,#00c0df);
+  box-shadow: 8px 12px 10px -1px black;
+  width: 180px;
+  padding: 13px;
+  margin-left: 111px;
+  border-radius: 10px;
+}
+.ad_content button #arrows{
+  color: white;
+}
+
+
 
 .bulk_info {
   /*background-image: url(home.png);*/
@@ -126,6 +170,7 @@ div.home h2 {
   font-size: 33px;
   /* margin-top: 15px; */
   line-height: 67px;
+  color: #24669f;
 }
 
 .phone_number {
@@ -164,6 +209,7 @@ div.home h2 {
   display: inline-block;
   font-size: 48px;
   margin-right: -248px;
+  color: #00c0df;
 }
 #international{
   /*display: inline-block;*/
@@ -180,14 +226,18 @@ div.home h2 {
   width: auto;
   height: 929px;
 }
+.clients_servers span{
+  color: #0096ad;
+}
 .clients_servers h1{
   width: auto;
-height: 50px;
-/* background: black; */
-margin-left: 65px;
-margin-top: 4px;
-font-size: 42px;
-font-weight: bold;
+  height: 50px;
+  color: #22659e;
+  /*background: black; */
+  margin-left: 65px;
+  margin-top: 4px;
+  font-size: 42px;
+  font-weight: bold;
 }
 .clients_servers ul{
   /*height: 869px;*/
@@ -200,11 +250,18 @@ font-weight: bold;
   /*height: 122px;*/
   /*background: black;*/
 }
+/*.clients_servers #server_client_cycle{
+  background: linear-gradient(#f5f5f5,#fcfcfc);
+
+}*/
+
 .clients_servers img{
   width: 546px;
   margin-left: 465px;
   margin-top: 13px;
+  /*background: red;*/
 }
+
 ol{
   margin-left: 27px;
   font-size: 43px;
@@ -213,6 +270,10 @@ ol{
 ol li{
   margin-left: 75px;
   font-size: 33px;
+}
+.clients_servers ol h1{
+  color: #22659e;
+  margin-left: 0px;
 }
 .the_big_3{
   width: 1375px;
