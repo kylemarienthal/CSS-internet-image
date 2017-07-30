@@ -4,14 +4,14 @@
 }
 
 body {
-  background-image: url('background.png');
-  background-repeat: no-repeat;
+  /*background-image: url('background.png');*/
+  /*background-repeat: no-repeat;*/
 }
 
 .container {
   width: auto;
   height: 1599px;
-  opacity: .5;
+  /*opacity: .5;*/
   /*background: white;*/
 }
 
@@ -19,28 +19,38 @@ body {
   width: 1917px;
   height: 276px;
   /*opacity: .5;*/
-  background: blue;
+  background: white;
   margin-left: 213px;
+
 }
 
 #globe {
   width: 193px;
   height: 184px;
-  background-image: url(globe.png)
+  /*background-image: url(globe.png)*/
 }
 
-h1 {
+.header h1 {
   height: 150px;
   width: 1713px;
   display: inline-block;
   vertical-align: top;
+  font-size: 107px;
+  margin-top: 21px;
+}
+.header span{
+  color: #22659e;
 }
 
-h2 {
+.header h2 {
   height: 80px;
   width: auto;
   display: block;
+  font-size: 70px;
+  padding-left: 28px;
+  color: white;
   vertical-align: top;
+  background: linear-gradient(#23659e,#5283ac,#23659e);
 }
 
 .main_content {
@@ -210,7 +220,12 @@ ol li{
   /* width: 50px; */
   font-size: 40px;
 }
-.the_big_3 p{
-  /*width: 75px;*/
+.the_big_3 img, .the_big_3 div{
   display: inline-block;
+  vertical-align: top;
+}
+.the_big_3 div p{
+  width: 1088px;
+  font-size: 31px;
+  margin-left: 23px;
 }
