@@ -21,7 +21,6 @@ body {
   /*opacity: .5;*/
   background: white;
   margin-left: 213px;
-
 }
 
 #globe {
@@ -63,6 +62,16 @@ body {
   display: inline-block;
   height: 425px;
   width: 418px;
+  font-size: 34px;
+}
+.internet span{
+  color: red;
+}
+.internet #definition span{
+  color: #25679f;
+}
+.internet p{
+  margin-top: 31px;
 }
 
 .internet_links {
